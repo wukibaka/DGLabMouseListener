@@ -23,7 +23,7 @@ jobs:
       - name: Create Executable File
         run: pyinstaller -F "main.py" --clean --dist ./out --name "DGLabMouseListener"
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: CxKitty For Windows x64
           path: |
