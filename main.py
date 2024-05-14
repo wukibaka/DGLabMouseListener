@@ -14,10 +14,10 @@ tracemalloc.start()
 
 global config
 config = {
-    "ws": "ws://192.168.10.247:60536/1",
+    "ws": "ws://192.168.2.6:60536/1",
     "level": "INFO",
     "rand": {"t": 0, "i": 0.2},
-    "mouseClick": {"left": {"i": 60, "t": 1000}, "right": {"i": 0, "t": 1}},
+    "mouseClick": {"left": {"i": 60, "t": 1000}, "right": {"i": 50, "t": 1}},
     "killEvent": {"kill": {"i": 61, "t": 10}, "killed": {"i": 100, "t": 1000}},
     "keyBoard": {}
 }
