@@ -25,6 +25,6 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: CxKitty For Windows x64
+          name: DGLabMouseListener For Windows x64
           path: |
             out
